@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container
+{
+    font-family: 'Raleway', sans-serif;
+    width:100vw;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #c2ebee;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title
+{
+    margin:50px;
+    font-size: xx-large;
+    color:rgb(3, 57, 61)
+}
+.flex-box
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 90px;
+    overflow: scroll;
+}
+.input-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30vw;
+    margin-top: 30px;
+}
+.input-text
+{
+    height:200px;
+    width:100%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+textarea
+{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-size: x-large;
+}
+textarea::placeholder
+{
+    padding:10px;
+}
+.submit
+{
+    margin: 20px 0;
+    padding: 8px;
+    width:80px;
+    cursor: pointer;
+}
+.submit:hover
+{
+    color:#fff;
+    background-color: rgb(133, 216, 133);
+}
+.result-box-entire
+{
+
+    display:none;
+}
+.heading
+{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+.result-box
+{
+    overflow: scroll;
+}
+table
+{
+    height:7px;
+    border-collapse: collapse;
+}
+
+
+td{
+    padding: 5px;
+    width:100px;
+    border: 1px solid black;
+
+}
